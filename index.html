@@ -387,17 +387,17 @@
                     </li>
                 </ul>
             </div>
-            <div class="">
-                <form class="form" name="e-mail_input" autocomplete="off">
-                    <label class="form-label">
-                        Subscribe
-                        <input class="form-input" type="text" name="e-mail" placeholder="E-mail" autofocus />
+            <div class="form-footer">
+                <p class="footer-title-form">Subscribe</p>
+                <form class="form-label">
+                    <label class="label-footer">
+                        <input class="footer-form-input" name="e-mail" type="e-mail" placeholder="E-mail" />
                     </label>
                 
                     <button class="footer-btn" type="submit">
                         Subscribe
                         <svg class="footer-btn-icon" width="24" height="24">
-                            <use type=""></use>
+                            <use type="./images/icons.svg#icon-send"></use>
                         </svg>
                     </button>
                 </form>
@@ -411,7 +411,7 @@
         <div class="modal">
             <button class="" type="button">
                 <svg class="" width="" height="">
-                    <use href=""></use>
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
 
@@ -422,23 +422,23 @@
                     <div class="modal-input-container">
                         <input class="modal-input" type="text" name="user-name" id="user-name">
                         <svg class="" width="" height="">
-                            <use href=""></use>
+                            <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
 
-                    <label class="modal-lebel" for="user-name">Phone</label>
+                    <label class="modal-lebel" for="user-phone">Phone</label>
                     <div class="modal-input-container">
-                        <input class="modal-input" type="text" name="user-tel" id="">
+                        <input class="modal-input" type="text" name="user-phone" id="user-phone">
                         <svg class="" width="" height="">
-                            <use href=""></use>
+                            <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
 
-                    <label class="modal-lebel" for="user-name">Email</label>
+                    <label class="modal-lebel" for="user-email">Email</label>
                     <div class="modal-input-container">
-                        <input class="modal-input" type="text" name="user-mail" id="">
+                        <input class="modal-input" type="text" name="user-email" id="user-email">
                         <svg class="" width="" height="">
-                            <use href=""></use>
+                            <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                     <label>
@@ -446,7 +446,7 @@
                         <textarea name="comment" rows="5" placeholder="Enter your message here..."></textarea>
                     </label>
                     <label>
-                        <input type="checkbox" name="confidentiality" value="confidentiality" checked />
+                        <input type="checkbox" name="confidentiality" value="confidentiality" />
                         I accept the terms and conditions of the <span class="">Privacy Policy</span>
                     </label>
                     <button type="submit">Send</button>
