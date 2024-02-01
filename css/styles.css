@@ -801,7 +801,7 @@ transform: translateY(0%);
     margin-bottom: 8px;
 }
 
-.modal-lebel {
+.modal-label {
     display: block;
     margin-top: 8px;
     margin-bottom: 4px;
@@ -810,7 +810,7 @@ transform: translateY(0%);
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.lebel-name {
+.label-name {
     margin-top: 16px;
 }
 
