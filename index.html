@@ -411,7 +411,7 @@
             </button>
 
             <p class="modal-title">Leave your contacts and we will call you back</p>
-            <form>
+            <form class="contact-form" name="contact-form" autocomplete="off" novalidate>
                 <div class="modal-form-input">
                     <label class="modal-label label-name" for="user-name">Name</label>
                     <div class="modal-input-icon">
@@ -452,21 +452,21 @@
                             <a class="modal-link" href="">Privacy Policy</a>
                         </label> -->
                     </div>
-                    <div class="checkbox-modal">
-                        <input class="hidden-checkbox visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy" />
-                        <label class="checkbox-label" for="user-privacy">
-                            <span class="checkbox-privacy">
-                                <svg class="checkmark" width="10" height="8">
-                                    <use href="./images/icons.svg#icon-check.svg"></use>
-                                </svg>
-                            </span>
-                            I accept the terms and conditions of the
-                            <a class="modal-link" href="">Privacy Policy</a>
-                        </label>
-                    </div>
-                    
-                    <button class="checkbox-btn" type="submit">Send</button>
                 </div>
+                <div class="checkbox-modal">
+                    <input class="hidden-checkbox visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy" />
+                    <label class="checkbox-label" for="user-privacy">
+                        <span class="checkbox-privacy">
+                            <svg class="checkmark" width="10" height="8">
+                                <use href="./images/icons.svg#icon-check.svg"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
+                        <a class="modal-link" href="">Privacy Policy</a>
+                    </label>
+                </div>
+                
+                <button class="checkbox-btn" type="submit">Send</button>
             </form>
 
         </div>
