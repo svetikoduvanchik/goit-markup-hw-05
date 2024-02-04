@@ -795,6 +795,7 @@ transform: translateY(0%);
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 
 .modal-form-input {
@@ -810,9 +811,9 @@ transform: translateY(0%);
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-.label-name {
+/* .label-name {
     margin-top: 16px;
-}
+} */
 
 .modal-input {
     display: flex;
